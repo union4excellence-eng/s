@@ -42,7 +42,7 @@ body {
 .photo {
   position: absolute;
   inset: -8%;
-  background: url("assets/hero.jpg") center / cover no-repeat;
+  background: url("hero.jpg") center / cover no-repeat;
   transform: scale(var(--photo-scale));
   transform-origin: center center;
   will-change: transform;
