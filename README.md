@@ -12,3 +12,4 @@ Static landing page for cPanel / UAE hosting. Upload the whole folder into `publ
 - `assets/logo-mask.png`
 
 Change the contact address in `index.html` (`mailto:hello@stocksmart.com`) when you have the live inbox or booking link.
+
