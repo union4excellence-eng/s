@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>StockSmart</title>
+    <meta
+      name="description"
+      content="Invoices, dispatch, inventory, all in one."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scroll-space" aria-hidden="true"></div>
+
+    <main class="stage">
+      <div class="photo" id="photo"></div>
+
+      <svg class="veil" id="veil" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+        <defs>
+          <mask
+            id="logo-mask"
+            maskUnits="userSpaceOnUse"
+            maskContentUnits="userSpaceOnUse"
+          >
+            <rect id="mask-fill" x="0" y="0" fill="#fff"></rect>
+            <image
+              id="logo-hole"
+              href="assets/logo-hole.png"
+              xlink:href="assets/logo-hole.png"
+              preserveAspectRatio="xMidYMid meet"
+            ></image>
+          </mask>
+        </defs>
+        <rect id="veil-fill" x="0" y="0" fill="#ffffff" mask="url(#logo-mask)"></rect>
+      </svg>
+
+      <a class="cta" id="cta" href="mailto:hello@stocksmart.com">Book A Call</a>
+
+      <p class="copy copy-before" id="copy-before">
+        Invoices, dispatch, inventory, all in one.
+      </p>
+      <p class="copy copy-after" id="copy-after">
+        Every detail of your business day, running smoothly in the background.
+      </p>
+
+      <p class="legal" id="legal">
+        © StockSmart Inventory and Analytics, Inc.
+      </p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
